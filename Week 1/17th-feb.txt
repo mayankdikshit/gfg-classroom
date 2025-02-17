@@ -1,0 +1,6 @@
+html - dom - html parser
+
+css - ccsom - css parser
+
+html parser + css parser => paint = render tree
+
