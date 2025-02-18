@@ -1,0 +1,8 @@
+value - e.target.value 
+
+input type - button, password,
+
+form - action - api(mode) , method- get/post;
+
+
+ctrl + alt + down arrow 
