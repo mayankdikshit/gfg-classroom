@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 1px solid;
+            display: grid;
+            height: 250px;
+            width:100%;
+            grid-template-areas:
+            "h h h"
+            "s c c"
+            "s c c"
+            "f f f";
+        }
+        .header {
+            grid-area: h;
+        }
+        .sidebar {
+            grid-area: s;
+        }
+        .content {
+            grid-area: c;
+        }
+        .footer {
+            grid-area: f;
+        }
+        .box {
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box header">header</div>
+        <div class="box sidebar">sidebar</div>
+        <div class="box content">content</div>
+        <div class="box footer">footer</div>
+    </div>
+</body>
+</html>

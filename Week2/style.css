@@ -1,0 +1,8 @@
+.hello {
+    background-color: orange;
+}
+
+.hello:hover {
+    color: blue;
+    cursor: pointer;
+}
