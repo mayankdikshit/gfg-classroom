@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .child {
+            background-color: red;
+            padding: 1rem;
+            color: white;
+            font-weight: 500;
+            flex: 1 1 0;
+            border: 2px solid black;
+        }
+        @media (max-width: 768px) {
+            .child {
+                flex: 1 1 calc(33% - 1rem);
+            }
+        }
+        @media (max-width: 480px) {
+            .child {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">About us</div>
+        <div class="child">Contact us</div>
+        <div class="child">Careeer</div>
+        <div class="child">Know more</div>
+        <div class="child">login</div>
+    </div>
+</body>
+</html>
