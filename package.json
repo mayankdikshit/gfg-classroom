@@ -1,0 +1,19 @@
+{
+  "name": "gfg",
+  "version": "1.0.0",
+  "main": "script_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankdikshit/gfg-classroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayankdikshit/gfg-classroom/issues"
+  },
+  "homepage": "https://github.com/mayankdikshit/gfg-classroom#readme",
+  "description": ""
+}
